@@ -6,8 +6,8 @@ import Data.Number.CReal
 import Text.Format
 
 -- Little script to compute the probability of having at least t 1s in
--- a n-bit string, given that the probability of having 1 in any of
--- the bit is p.
+-- a n-bit string, given that the probability of having 1 in any bit
+-- is p.
 
 main :: IO ()
 main = do
