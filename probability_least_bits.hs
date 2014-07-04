@@ -1,9 +1,9 @@
 #!/usr/bin/runhaskell
 
-import Math.Combinatorics.Binomial
-import System.Environment
-import Data.Number.CReal
-import Text.Format
+import Data.Number.CReal (CReal)
+import Math.Combinatorics.Binomial (choose)
+import System.Environment (getArgs)
+import Text.Format (format)
 
 -- Little script to compute the probability of having at least t 1s in
 -- a n-bit string, given that the probability of having 1 in any bit
