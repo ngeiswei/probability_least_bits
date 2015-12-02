@@ -1,7 +1,7 @@
 #!/usr/bin/env runhaskell
 
 import Data.Number.CReal (CReal)
-import Math.Combinatorics.Binomial (choose)
+import Math.Combinatorics.Exact.Binomial (choose)
 import System.Environment (getArgs)
 import Text.Format (format)
 
