@@ -1,4 +1,4 @@
-#!/usr/bin/runhaskell
+#!/usr/bin/env runhaskell
 
 import Data.Number.CReal (CReal)
 import Math.Combinatorics.Binomial (choose)
