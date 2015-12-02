@@ -7,13 +7,14 @@ n-bit string, given that the probability of having 1 in any bit is p.
 
 You need the following packages:
 
+* numbers
 * exact-combinatorics
 * text-format-simple
 
 For Haskell noobs, here's a possible way to install them
 
 ```
-$ cabal install exact-combinatorics text-format-simple
+$ cabal install numbers exact-combinatorics text-format-simple
 ```
 
 # Usage
